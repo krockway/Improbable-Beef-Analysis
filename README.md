@@ -14,8 +14,13 @@ samples.json
 
 ## Dashboard Summary: 
 
-The dashboard features 3 charts:
-# 1. Horizontal bar chart
+The dashboard features 3 charts, each of which are interactive based on the selection from the dropdown menu. Additionally, the demographic information will dynamically update as each user is selected.
 
-# 2. Gauge chart
-# 3. Bubble chart
+### 1. Horizontal bar chart
+The horizontal bar chart displays the top 10 bacterial species (OTUs) for a given individual.
+
+### 2. Gauge chart
+The gauge chart displays the frequency which the user washes their belly button.
+
+### 3. Bubble chart
+The bubble chart displays the bacteria IDs along the x-axis and the sample values along the y-axis. The size of the bubble is dictated by the sample value and the color is dictated by the bacteria IDs.
