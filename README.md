@@ -14,4 +14,8 @@ samples.json
 
 ## Dashboard Summary: 
 
-The dashboard features 3 charts.
+The dashboard features 3 charts:
+# 1. Horizontal bar chart
+
+# 2. Gauge chart
+# 3. Bubble chart
