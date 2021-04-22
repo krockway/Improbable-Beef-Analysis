@@ -37,13 +37,12 @@ function buildMetadata(sample) {
       //Erase whatever was in here before
       PANEL.html("");
       //Display the user details
-    //   console.log(result)
-    //   PANEL.append("h6").text("ID: " + result.id);
-    //   PANEL.append("h6").text("ETHNICITY: " + result.ethnicity);
-    //   PANEL.append("h6").text("GENDER: " + result.gender);
-    //   PANEL.append("h6").text("AGE: " + result.age);
-    //   PANEL.append("h6").text("LOCATION: " + result.location);
-    //   PANEL.append("h6").text("BBTYPE: " + result.bbtype);
+      PANEL.append("h6").text("ID: " + result.id);
+      PANEL.append("h6").text("ETHNICITY: " + result.ethnicity);
+      PANEL.append("h6").text("GENDER: " + result.gender);
+      PANEL.append("h6").text("AGE: " + result.age);
+      PANEL.append("h6").text("LOCATION: " + result.location);
+      PANEL.append("h6").text("BBTYPE: " + result.bbtype);
       PANEL.append("h6").text("WFREQ: " + result.wfreq);
 
     });
@@ -54,6 +53,6 @@ function buildMetadata(sample) {
 function optionChanged(newSample) {
     // newSample here is = this.value in html (aka the new selection in the dropdown)
     buildMetadata(newSample);
-//    buildCharts(newSample);
+   buildCharts(newSample);
   }
 
