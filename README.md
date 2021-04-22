@@ -17,7 +17,7 @@ samples.json
 The dashboard features 3 charts, each of which are interactive based on the selection from the dropdown menu. Additionally, the demographic information will dynamically update as each user is selected.
 
 ### 1. Horizontal bar chart
-The horizontal bar chart displays the top 10 bacterial species (OTUs) for a given individual.
+The horizontal bar chart displays the top 10 bacterial species (OTUs) for a given individual. The most commonly found OTU is found at the top of the chart, with decreasing frequency as you move down the y-axis.
 
 ### 2. Gauge chart
 The gauge chart displays the frequency which the user washes their belly button.
