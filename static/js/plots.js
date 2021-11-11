@@ -56,3 +56,4 @@ function optionChanged(newSample) {
    buildCharts(newSample);
   }
 
+init();
