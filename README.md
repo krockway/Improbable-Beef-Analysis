@@ -12,7 +12,7 @@ Each participant shown is anonymous; participants have been supplied with an ID 
 
 ## Process
 
-The first step was to print a dynamic list of the Test Subject IDs (ex. 940) from samples.json into a dropdown list.
+The first step was to print a dynamic list of the Test Subject IDs (ex. 940) from the supplied, samples.json into a dropdown list.
 
 ![Dropdown list](https://github.com/krockway/Improbable-Beef-Analysis/blob/main/images/dropdowns.png)
 
@@ -26,7 +26,7 @@ In the center of the page, three graphic visualizations are created using the ch
 
 The horizontal bar chart, Top 10 Bacteria Cultures Found, displays the top 10 bacterial species (OTUs) for a given individual. The most commonly found OTU is found at the top of the chart, with decreasing frequency as you move down the y-axis.
 
-The gauge chart, Belly Button Washing Frequency, displays the frequency which the user washes their belly button.
+The gauge chart, Belly Button Washing Frequency, displays the frequency (per week) which the user washes their belly button.
 
 The bubble chart, Bacteria Cultures per Sample, displays the bacteria IDs along the x-axis and the sample values along the y-axis. The size of the bubble is dictated by the sample value and the color is dictated by the bacteria IDs.
 
