@@ -16,7 +16,7 @@ function init() {
             .text(sample)
             .property("value", sample);
         });
-})};
+})}
 
 //Display the metadata for each Subject ID
 //Take the ID # (sample) from the dropdown change

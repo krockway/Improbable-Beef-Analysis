@@ -55,8 +55,6 @@ function buildMetadata(sample) {
     PANEL.html("");
 
     // Use `Object.entries` to add each key and value pair to the panel
-    // Hint: Inside the loop, you will need to use d3 to append new
-    // tags for each key-value in the metadata.
     Object.entries(result).forEach(([key, value]) => {
       PANEL.append("h6").text(`${key.toUpperCase()}: ${value}`);
     });
@@ -72,11 +70,11 @@ function buildCharts(sample) {
     // --------Gather Data--------
     // 3. Create a variable that holds the samples array. 
     var samples = data.samples;
-    var wfSamples = data.metadata;
+    // var wfSamples = data.metadata;
 
     // 4. Create a variable that filters the samples for the object with the desired sample number.
     var samplesArray = samples.filter(sampleObj => sampleObj.id == sample);
-    var wfSamplesArray = wfSamples.filter(sampleObj => sampleObj.id == sample);
+    // var wfSamplesArray = wfSamples.filter(sampleObj => sampleObj.id == sample);
 
     //  5. Create a variable that holds the first sample in the array.
     var result = samplesArray[0];
