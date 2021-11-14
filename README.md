@@ -6,7 +6,7 @@ Improbable Beef is interested in proteins that taste like beef; other labs have 
 
 The human body is a source of thousands of types of bacteria and Roza suspects that the perfect missing protein may come from bacteria found in human belly buttons. To test her hypothesis, Roza has sampled the navels of participants across the country to identify different bacteria types.
 
-The interactive dashboards display her findings.
+The [interactive dashboard](https://krockway.github.io/Improbable-Beef-Analysis/) displays her findings.
 
 Each participant shown is anonymous; participants have been supplied with an ID number to identify themselves & their personal bacteria analysis. Scientists and researchers can use the anonymous data for further research.
 
@@ -22,7 +22,7 @@ On the leftside of the page, the demographic information loads.
 
 ![Demographic information](https://github.com/krockway/Improbable-Beef-Analysis/blob/main/images/demographics.png)
 
-The three graphic visualizations are created using the charts.js script.
+In the center of the page, three graphic visualizations are created using the charts.js script.
 
 The horizontal bar chart, Top 10 Bacteria Cultures Found, displays the top 10 bacterial species (OTUs) for a given individual. The most commonly found OTU is found at the top of the chart, with decreasing frequency as you move down the y-axis.
 
@@ -49,7 +49,7 @@ The scripts will recreate these steps each time the Test Subject ID is changed.
 
 ## Analysis
 
-Dashboard [Link to dashboard] (https://krockway.github.io/Improbable-Beef-Analysis/)
+[Link to dashboard](https://krockway.github.io/Improbable-Beef-Analysis/)
 
 ## Results
 
@@ -57,4 +57,4 @@ Dashboard [Link to dashboard] (https://krockway.github.io/Improbable-Beef-Analys
 
 Currently the dashboard is designed for individual test subjects to view their personal results; with more time, I would create summary visualizations that allow results to be amalgamated, this would help researchers see similarities on a larger scale.
 
-I would also allow researchers to view results by bacteria type. Knowing that OTU 1167 is a common bacteria for many test subjects, it would be helpful to see a list of all subjects that contain this particular bacterial species.
+I would also allow researchers to view results by bacteria type. Knowing that OTU 1167 is a common bacteria for many test subjects, it may be helpful to see a list of all subjects that contain this particular bacterial species to help identify similarities in demographics or bacteria types commonly found together.
