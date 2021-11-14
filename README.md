@@ -30,15 +30,15 @@ The gauge chart, Belly Button Washing Frequency, displays the frequency which th
 
 The bubble chart, Bacteria Cultures per Sample, displays the bacteria IDs along the x-axis and the sample values along the y-axis. The size of the bubble is dictated by the sample value and the color is dictated by the bacteria IDs.
 
-Subject 940 Analysis
+### Subject 940 Analysis
 
 ![Charts for Subject 940](https://github.com/krockway/Improbable-Beef-Analysis/blob/main/images/subject940.png)
 
-Subject 1275 Analysis
+### Subject 1275 Analysis
 
 ![Charts for Subject 1275](https://github.com/krockway/Improbable-Beef-Analysis/blob/main/images/subject1275.png)
 
-The script will recreate these steps each time the Test Subject ID is changed.
+The scripts will recreate these steps each time the Test Subject ID is changed.
 
 ## Tools & Languages
 
@@ -49,9 +49,12 @@ The script will recreate these steps each time the Test Subject ID is changed.
 
 ## Analysis
 
-[Link to dashboard] (https://krockway.github.io/Improbable-Beef-Analysis/)
+Dashboard [Link to dashboard] (https://krockway.github.io/Improbable-Beef-Analysis/)
 
 ## Results
 
 ## Challenges & Next Steps
 
+With more time, I would create additional visualizations that allow researchers to view multiple subjects at once.
+
+Additionally, I would allow researchers to view results by bacteria type. Knowing that OTU 1167 is the most common bacteria, it would be helpful to see a list of all subjects that contain this particular bacterial species.
