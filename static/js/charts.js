@@ -91,9 +91,7 @@ function buildCharts(sample) {
     var wfreq = wfResult.wfreq;
 
     // --------Create Bar Chart--------
-    // 7. Create the yticks for the bar chart.
-    // Hint: Get the the top 10 otu_ids and map them in descending order  
-    //  so the otu_ids with the most bacteria are last. 
+    // 7. Create the yticks for the bar chart. 
 
     var yticks = otu_ids.slice(0,10).map(id => `OTU ${id}`);
 
@@ -107,7 +105,7 @@ function buildCharts(sample) {
     }];
     // 9. Create the layout for the bar chart. 
     var barLayout = {
-      title: "Top 10 Bacteria Cultures Found",
+      title: "<b>Top 10 Bacteria Cultures Found</b>",
       xaxis: {title: "Sample Values"},
       yaxis: {title: "OTU IDs"}     
     };
@@ -130,7 +128,7 @@ function buildCharts(sample) {
 
     // 2. Create the layout for the bubble chart.
     var bubbleLayout = {
-      title: "Bacteria Cultures Per Sample",
+      title: "<b>Bacteria Cultures Per Sample</b>",
       yaxis: {title: "Sample Values"},
       xaxis: {title: "OTU IDs"},
       hovermode: 'closest'
