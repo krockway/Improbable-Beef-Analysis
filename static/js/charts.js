@@ -10,7 +10,6 @@ function init() {
 
     // For each element in sampleNames, the dropdown menu option will be appended
     //Prevents us from having to hard-code the dropdown list, generates dynamically
-    //Example: <option value="940">940</option>
     sampleNames.forEach((sample) => {
       selector
         .append("option")
@@ -70,11 +69,11 @@ function buildCharts(sample) {
     // --------Gather Data--------
     // 3. Create a variable that holds the samples array. 
     var samples = data.samples;
-    // var wfSamples = data.metadata;
+    var wfSamples = data.metadata;
 
     // 4. Create a variable that filters the samples for the object with the desired sample number.
     var samplesArray = samples.filter(sampleObj => sampleObj.id == sample);
-    // var wfSamplesArray = wfSamples.filter(sampleObj => sampleObj.id == sample);
+    var wfSamplesArray = wfSamples.filter(sampleObj => sampleObj.id == sample);
 
     //  5. Create a variable that holds the first sample in the array.
     var result = samplesArray[0];
