@@ -47,11 +47,11 @@ The scripts will recreate these steps each time the Test Subject ID is changed.
 
 ![Charts for Subject 1275](https://github.com/krockway/Improbable-Beef-Analysis/blob/main/images/subject1275.png)
 
-The horizontal bar chart, Top 10 Bacteria Cultures Found, displays the top 10 bacterial species (OTUs) for a given individual. The most commonly found OTU is found at the top of the chart, with decreasing frequency as you move down the y-axis.
+The horizontal bar chart, <b>Top 10 Bacteria Cultures Found</b>, displays the top 10 bacterial species (OTUs) for a given individual. The most commonly found OTU is found at the top of the chart, with decreasing frequency as you move down the y-axis.
 
-The gauge chart, Belly Button Washing Frequency, displays the frequency (per week) which the user washes their belly button.
+The gauge chart, <b>Belly Button Washing Frequency</b>, displays the frequency (per week) which the user washes their belly button.
 
-The bubble chart, Bacteria Cultures per Sample, displays the bacteria IDs along the x-axis and the sample values along the y-axis. The size of the bubble is dictated by the sample value and the color is dictated by the bacteria IDs.
+The bubble chart, <b>Bacteria Cultures per Sample</b>, displays the bacteria IDs along the x-axis and the sample values along the y-axis. The size of the bubble is dictated by the sample value and the color is dictated by the bacteria IDs.
 
 ## Challenges & Next Steps
 
