@@ -22,7 +22,7 @@ On the leftside of the page, the demographic information loads.
 
 ![Demographic information](https://github.com/krockway/Improbable-Beef-Analysis/blob/main/images/demographics.png)
 
-The graphic visualizations are created using the charts.js script.
+The three graphic visualizations are created using the charts.js script.
 
 The horizontal bar chart, Top 10 Bacteria Cultures Found, displays the top 10 bacterial species (OTUs) for a given individual. The most commonly found OTU is found at the top of the chart, with decreasing frequency as you move down the y-axis.
 
@@ -55,6 +55,6 @@ Dashboard [Link to dashboard] (https://krockway.github.io/Improbable-Beef-Analys
 
 ## Challenges & Next Steps
 
-With more time, I would create additional visualizations that allow researchers to view multiple subjects at once.
+Currently the dashboard is designed for individual test subjects to view their personal results; with more time, I would create summary visualizations that allow results to be amalgamated, this would help researchers see similarities on a larger scale.
 
-Additionally, I would allow researchers to view results by bacteria type. Knowing that OTU 1167 is the most common bacteria, it would be helpful to see a list of all subjects that contain this particular bacterial species.
+I would also allow researchers to view results by bacteria type. Knowing that OTU 1167 is a common bacteria for many test subjects, it would be helpful to see a list of all subjects that contain this particular bacterial species.
