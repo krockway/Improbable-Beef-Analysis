@@ -6,11 +6,10 @@ function init() {
     // Read the json file and assign ito new argument "data" (arbitrary name)
     d3.json("samples.json").then((data) => {
         console.log(data);
-        //Print the names (aka ID #s), which will be used for the dropdown menu
+        //Print the names (aka ID #s) used for the dropdown menu
         var sampleNames = data.names;
         // For each element in sampleNames, the dropdown menu option will be appended
         //Prevents us from having to hard-code the dropdown list, generates dynamically
-        //Example: <option value="940">940</option>
         sampleNames.forEach((sample) => {
             selector
             .append("option")
@@ -18,7 +17,6 @@ function init() {
             .property("value", sample);
         });
 })};
-init();
 
 //Display the metadata for each Subject ID
 //Take the ID # (sample) from the dropdown change
