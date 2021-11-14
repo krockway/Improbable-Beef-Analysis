@@ -18,6 +18,9 @@ function init() {
         });
 })}
 
+// Initialize the dashboard
+init();
+
 //Display the metadata for each Subject ID
 //Take the ID # (sample) from the dropdown change
 function buildMetadata(sample) {
@@ -53,5 +56,5 @@ function optionChanged(newSample) {
     buildMetadata(newSample);
    buildCharts(newSample);
   }
-
-init();
+;
+// init();
