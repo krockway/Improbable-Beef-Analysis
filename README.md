@@ -14,29 +14,11 @@ Each participant shown is anonymous; participants have been supplied with an ID 
 
 The first step was to print a dynamic list of the Test Subject IDs (ex. 940) from the supplied, samples.json into a dropdown list.
 
-![Dropdown list](https://github.com/krockway/Improbable-Beef-Analysis/blob/main/images/dropdowns.png)
-
 Once the Test Subject ID is selected from the dropdown list, the following steps happen in tandem.
 
 On the leftside of the page, the demographic information loads.
 
-![Demographic information](https://github.com/krockway/Improbable-Beef-Analysis/blob/main/images/demographics.png)
-
-In the center of the page, three graphic visualizations are created using the charts.js script.
-
-The horizontal bar chart, Top 10 Bacteria Cultures Found, displays the top 10 bacterial species (OTUs) for a given individual. The most commonly found OTU is found at the top of the chart, with decreasing frequency as you move down the y-axis.
-
-The gauge chart, Belly Button Washing Frequency, displays the frequency (per week) which the user washes their belly button.
-
-The bubble chart, Bacteria Cultures per Sample, displays the bacteria IDs along the x-axis and the sample values along the y-axis. The size of the bubble is dictated by the sample value and the color is dictated by the bacteria IDs.
-
-### Subject 940 Analysis
-
-![Charts for Subject 940](https://github.com/krockway/Improbable-Beef-Analysis/blob/main/images/subject940.png)
-
-### Subject 1275 Analysis
-
-![Charts for Subject 1275](https://github.com/krockway/Improbable-Beef-Analysis/blob/main/images/subject1275.png)
+In the center of the page, three graphic visualizations are created using the charts.js script: a horizontal bar chart, a gauge chart and a bubble chart.
 
 The scripts will recreate these steps each time the Test Subject ID is changed.
 
@@ -47,11 +29,29 @@ The scripts will recreate these steps each time the Test Subject ID is changed.
 * JSON
 * Plotly
 
-## Analysis
+## Analysis & Results
 
 [Link to dashboard](https://krockway.github.io/Improbable-Beef-Analysis/)
 
-## Results
+![Full Page View](https://github.com/krockway/Improbable-Beef-Analysis/blob/main/images/fullpage.png)
+
+![Dropdown list](https://github.com/krockway/Improbable-Beef-Analysis/blob/main/images/dropdowns.png)
+
+![Demographic information](https://github.com/krockway/Improbable-Beef-Analysis/blob/main/images/demographics.png)
+
+### Subject 940 Analysis
+
+![Charts for Subject 940](https://github.com/krockway/Improbable-Beef-Analysis/blob/main/images/subject940.png)
+
+### Subject 1275 Analysis
+
+![Charts for Subject 1275](https://github.com/krockway/Improbable-Beef-Analysis/blob/main/images/subject1275.png)
+
+The horizontal bar chart, Top 10 Bacteria Cultures Found, displays the top 10 bacterial species (OTUs) for a given individual. The most commonly found OTU is found at the top of the chart, with decreasing frequency as you move down the y-axis.
+
+The gauge chart, Belly Button Washing Frequency, displays the frequency (per week) which the user washes their belly button.
+
+The bubble chart, Bacteria Cultures per Sample, displays the bacteria IDs along the x-axis and the sample values along the y-axis. The size of the bubble is dictated by the sample value and the color is dictated by the bacteria IDs.
 
 ## Challenges & Next Steps
 
