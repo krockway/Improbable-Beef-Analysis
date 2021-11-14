@@ -39,13 +39,13 @@ The scripts will recreate these steps each time the Test Subject ID is changed.
 
 ![Demographic information](https://github.com/krockway/Improbable-Beef-Analysis/blob/main/images/demographics.png)
 
-### Subject 940 Analysis
-
-![Charts for Subject 940](https://github.com/krockway/Improbable-Beef-Analysis/blob/main/images/subject940.png)
-
 ### Subject 1275 Analysis
 
 ![Charts for Subject 1275](https://github.com/krockway/Improbable-Beef-Analysis/blob/main/images/subject1275.png)
+
+### Subject 1574 Analysis
+
+![Charts for Subject 1574](https://github.com/krockway/Improbable-Beef-Analysis/blob/main/images/subject1574.png)
 
 The horizontal bar chart, <b>Top 10 Bacteria Cultures Found</b>, displays the top 10 bacterial species (OTUs) for a given individual. The most commonly found OTU is found at the top of the chart, with decreasing frequency as you move down the y-axis.
 
